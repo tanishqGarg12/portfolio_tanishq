@@ -27,9 +27,9 @@ function HeroSection() {
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
             Hello, <br />
             This is {' '}
-            <span className=" text-pink-500">{personalData.name}</span>
+            <span className=" text-[#16f2b3]">{personalData.name}</span>
             {` , I'm a Professional `}
-            <span className=" text-[#16f2b3]">{personalData.designation}</span>
+            <span className=" text-pink-500">{personalData.designation}</span>
             .
           </h1>
 
@@ -37,21 +37,21 @@ function HeroSection() {
             <Link
               href={personalData.github}
               target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
+              className="transition-all text-[#00FFFF] hover:scale-125 duration-300"
             >
               <BsGithub size={30} />
             </Link>
             <Link
               href={personalData.linkedIn}
               target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
+              className="transition-all text-[#00FFFF] hover:scale-125 duration-300"
             >
               <BsLinkedin size={30} />
             </Link>
             <Link
               href={personalData.facebook}
               target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
+              className="transition-all text-[#00FFFF] hover:scale-125 duration-300"
             >
               <FaFacebook size={30} />
             </Link>
@@ -65,7 +65,7 @@ function HeroSection() {
             <Link
               href={personalData.twitter}
               target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
+              className="transition-all text-[#00FFFF] hover:scale-125 duration-300"
             >
               <FaTwitterSquare size={30} />
             </Link>
@@ -88,7 +88,7 @@ function HeroSection() {
 
         </div>
         <AnimationLottie animationPath={coding} />
-        
+
         {/* <div className="order-1 lg:order-2 from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37]">
           <div className="flex flex-row">
             <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
