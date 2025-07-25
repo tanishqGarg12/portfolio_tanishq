@@ -8,6 +8,8 @@ import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 import { SiLeetcode } from "react-icons/si";
+import coding from '../../../assets/lottie/coding.json';
+import AnimationLottie from "../../helper/animation-lottie";
 
 function HeroSection() {
   return (
@@ -85,7 +87,9 @@ function HeroSection() {
           </div>
 
         </div>
-        <div className="order-1 lg:order-2 from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37]">
+        <AnimationLottie animationPath={coding} />
+        
+        {/* <div className="order-1 lg:order-2 from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37]">
           <div className="flex flex-row">
             <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
             <div className="h-[1px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>
@@ -178,7 +182,7 @@ function HeroSection() {
               <div><span className="text-gray-400">{`};`}</span></div>
             </code>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
