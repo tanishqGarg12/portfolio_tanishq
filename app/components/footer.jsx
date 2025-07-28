@@ -12,8 +12,8 @@ function Footer() {
           <p className="text-sm">
             Designed and Developed by <Link target="_blank" href="https://www.linkedin.com/in/rajatsharma22" className="text-[#16f2b3]">Rajat Sharma</Link>
           </p>
-          <p className="text-sm">
-            Copyright 
+         <p className="text-sm">
+            &copy; {new Date().getFullYear()} All rights reserved.
           </p>
         </div>
       </div>
