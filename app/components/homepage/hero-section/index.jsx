@@ -1,4 +1,4 @@
-// @flow strict
+"use client"; // 👈 Required for client-side features like useEffect/useState
 
 import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
@@ -10,8 +10,19 @@ import { RiContactsFill } from "react-icons/ri";
 import { SiLeetcode } from "react-icons/si";
 import coding from '../../../assets/lottie/coding.json';
 import AnimationLottie from "../../helper/animation-lottie";
+import React, { useEffect, useState } from 'react';
 
 function HeroSection() {
+  const roles = personalData.roles;
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setIndex((prevIndex) => (prevIndex + 1) % roles.length);
+    }, 5000); // Switch every 5 seconds
+
+    return () => clearInterval(timer);
+  }, [roles.length]);
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
       <Image
@@ -27,9 +38,9 @@ function HeroSection() {
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
             Hello, <br />
             This is {' '}
-            <span className=" text-[#16f2b3]">{personalData.name}</span>
-            {` , I'm a Professional `}
-            <span className=" text-pink-500">{personalData.designation}</span>
+            <span className=" text-[#16f2b3]">{personalData.name}</span>.<br />
+            {`I'm a Professional `}<br />
+            <span className=" text-pink-500">{roles[index]}</span>
             .
           </h1>
 
