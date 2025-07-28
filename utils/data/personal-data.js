@@ -2,7 +2,7 @@ export const personalData = {
   name: "RAJAT SHARMA",
   profile: '/profile.jpg',
   designation: "Software Developer",
-  description: "Hi Everyone, I am RAJAT SHARMA. I am a professional and enthusiastic web developer in my daily life. I am a quick learner with a self-learning attitude. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
+  description: "Hi Everyone, I am RAJAT SHARMA. \n I’m a dedicated Web Developer with a strong passion for crafting intuitive, high-performance web applications. With hands-on experience in modern JavaScript frameworks like React and Vue, I specialize in building responsive, scalable, and user-friendly interfaces that bring ideas to life. \n Whether it's creating a dynamic frontend or collaborating with teams to deliver impactful solutions, I take pride in building with purpose and precision—always pushing to grow, improve, and make a meaningful contribution through technology.",
   email: 'rajatsharma221098@gmail.com',
   phone: '+91-9873957498',
   address: 'Greater Noida, India',
