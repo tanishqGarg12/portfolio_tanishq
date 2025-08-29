@@ -10,8 +10,17 @@ export const projectsData = [
     },
     {
         id: 2,
+        name: 'Tick-Tock Store',
+        description: "Tick-Tock Store is a full-stack e-commerce web application built for showcasing and selling watches online.",
+        tools: ['Vue', 'JavaScript', 'Firebase', 'Bootstrap', 'Cloudinary' ],
+        role: 'Full Stack Developer',
+        code: '',
+        demo: '',
+    },
+    {
+        id: 3,
         name: 'Portfolio',
-        description: 'Proffesional Portfolio where I showcase my details, skills and project.',
+        description: 'Professional Portfolio where I showcase my details, skills and project.',
         tools: ['React', 'JavaScript', 'BootStrap', 'HTML & CSS'],
         role: 'Full Stack Developer',
         code: '',
