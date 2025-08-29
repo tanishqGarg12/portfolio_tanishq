@@ -30,6 +30,7 @@ function HeroSection() {
         alt="Hero"
         width={1572}
         height={795}
+        priority
         className="absolute -top-[98px] -z-10"
       />
 
