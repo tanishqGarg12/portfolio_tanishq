@@ -5,6 +5,7 @@ import axios from "axios";
 import { useState } from "react";
 import { TbMailForward } from "react-icons/tb";
 import { toast } from "react-toastify";
+import emailjs from '@emailjs/browser'
 
 function ContactForm() {
   const [error, setError] = useState({ email: false, required: false });
@@ -35,19 +36,29 @@ function ContactForm() {
 
     try {
       setIsLoading(true);
-      const res = await axios.post(
-        `${process.env.NEXT_PUBLIC_APP_URL}/api/contact`,
-        userInput
+      emailjs.send(
+        "service_cqkvl01",
+        "template_lfn5dfr",
+        userInput,
+        "Q-anB_0Teb0AWe3TE"
+      ).then(
+        (result) => {
+          // console.log(result.text === 'OK')
+          if (result.text === 'OK') {
+            toast.success("Message sent successfully!");
+            setUserInput({
+              name: "",
+              email: "",
+              message: "",
+            });
+          }
+        },
+        (error) => {
+          toast.error("Something went wrong. Try again!", error);
+        }
       );
-
-      toast.success("Message sent successfully!");
-      setUserInput({
-        name: "",
-        email: "",
-        message: "",
-      });
     } catch (error) {
-      toast.error(error?.response?.data?.message);
+      // toast.error(error?.response?.data?.message);
     } finally {
       setIsLoading(false);
     };
