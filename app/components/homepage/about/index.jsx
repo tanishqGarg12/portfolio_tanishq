@@ -25,15 +25,15 @@ function AboutSection() {
             {/* {personalData.description.split('\n').map((line, index) => (
         <p key={index} style={{ marginBottom: '2em' }}>{line}</p>
                   ))} */}
-<b>Hi, I’m Rajat Sharma — a FullStack Developer passionate about crafting intuitive, high-performance, and visually appealing web applications.</b> <br /><br />
+            <b>Hi, I’m Rajat Sharma — a FullStack Developer passionate about crafting intuitive, high-performance, and visually appealing web applications.</b> <br /><br />
 
-I specialize in building responsive and scalable user interfaces using <b>Vue, React, Next.js, Bootstrap and TailwindCSS.</b> With a strong eye for design and a love for clean code, I enjoy turning complex problems into simple, elegant solutions. <br /><br />
+            I specialize in building responsive and scalable user interfaces using <b>Vue, React, Next.js, Bootstrap and TailwindCSS.</b> With a strong eye for design and a love for clean code, I enjoy turning complex problems into simple, elegant solutions. <br /><br />
 
-Beyond coding, I’m always exploring new frontend trends, optimizing performance, and experimenting with modern web tools to deliver exceptional user experiences.<br /><br />
+            Beyond coding, I’m always exploring new frontend trends, optimizing performance, and experimenting with modern web tools to deliver exceptional user experiences.<br /><br />
 
-🚀 <b>Key Skills:</b> JavaScript (ES6+), TypeScript, Vue, React, Next.js, TailwindCSS, REST APIs, Git, Responsive Design, Web Performance.<br /><br />
+            🚀 <b>Key Skills:</b> JavaScript (ES6+), TypeScript, Vue, React, Next.js, TailwindCSS, REST APIs, Git, Responsive Design, Web Performance.<br /><br />
 
-🌟 <b>Goal:</b> To create digital experiences that are not only functional but also delightful for users.
+            🌟 <b>Goal:</b> To create digital experiences that are not only functional but also delightful for users.
           </div>
         </div>
         <div className="flex justify-center order-1 lg:order-2 w-90 h-100">
