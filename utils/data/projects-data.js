@@ -1,9 +1,9 @@
 export const projectsData = [
     {
         id: 1,
-        name: 'INA (Intelligent Network Analyzer)',
+        name: 'Intelligent Network Analyzer',
         description: "A platform for telecom operators to monitor network health, analyze traffic data, and visualize system performance with a drag-and-drop interface.",
-        tools: ['React', 'Vue', 'TypeScript', 'Neo4j', 'MongoDB', 'yfiles for HTML' ],
+        tools: ['React', 'TypeScript', 'Neo4j', 'MongoDB', 'yfiles for HTML', 'D3.js' ],
         role: 'Full Stack Developer',
         code: '',
         demo: '',
@@ -11,20 +11,20 @@ export const projectsData = [
     {
         id: 2,
         name: 'Tick-Tock Store',
-        description: "Tick-Tock Store is a full-stack e-commerce web application built for showcasing and selling watches online.",
-        tools: ['Vue', 'JavaScript', 'Firebase', 'Bootstrap', 'Cloudinary' ],
+        description: "Tick Tock Store is a Vue.js-based e-commerce website designed for showcasing and selling watches. The site features dynamic product catalogs, search and filter functionality, and responsive UI design optimized for mobile and desktop users.Leveraging component-based architecture, Vue Router, and Pinia state management, the project ensures seamless navigation and real-time updates.",
+        tools: ['Vue3', 'JavaScript', 'Firebase', 'Bootstrap', 'Cloudinary' ],
         role: 'Full Stack Developer',
         code: '',
-        demo: '',
+        demo: 'https://tick-tock-store.vercel.app/',
     },
     {
         id: 3,
         name: 'Portfolio',
-        description: 'Professional Portfolio where I showcase my details, skills and project.',
-        tools: ['React', 'JavaScript', 'BootStrap', 'HTML & CSS'],
+        description: 'A responsive and interactive personal portfolio website built using React/Next.js to highlight professional skills, projects, and achievements. The platform is designed with modern UI/UX principles, fast performance optimization, and SEO-friendly architecture to create a strong online presence. Features include smooth navigation, project sections, contact integrations etc.',
+        tools: ['React', 'JavaScript', 'Next.js', 'BootStrap', 'HTML & CSS'],
         role: 'Full Stack Developer',
         code: '',
-        demo: '',
+        demo: 'https://rajatsharma-portfolio.vercel.app/',
     },
    
 ];
