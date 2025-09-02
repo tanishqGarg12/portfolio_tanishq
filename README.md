@@ -7,11 +7,8 @@
 
 #### Are you struggling to create a professional portfolio website? Look no further! You can use the Portfolio template and create your very own personalized portfolio today! My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.
 
----
-
 ## View live preview [here](https://rajatsharma-portfolio.vercel.app/).
 
----
 
 # Installation :arrow_down:
 
@@ -58,7 +55,7 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
----
+
 
 ## Usage Instructions
 
@@ -74,4 +71,5 @@ Deploying the app to platforms like Vercel or Netlify is quick and easy.
 Give a ⭐ if you like this website!
 
 then do the usual `npm run dev`
+
 
