@@ -2,6 +2,9 @@
   Portfolio Website<br/>
   <a href="https://rajatsharma-portfolio.vercel.app/" target="_blank">rajat-sharma</a>
 </h2>
+<div align="center">
+  <img alt="Demo" src="portfolio-ss.png" />
+</div>
 
 ## Portfolio
 
@@ -66,3 +69,4 @@ Deploying the app to platforms like Vercel or Netlify is quick and easy.
 ## Show your support
 
 Give a ⭐ if you like this website!
+
