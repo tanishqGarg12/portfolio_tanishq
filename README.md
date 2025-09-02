@@ -3,7 +3,7 @@
   <a href="https://rajatsharma-portfolio.vercel.app/" target="_blank">rajat-sharma</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="portfolio-ss.png" />
+  <img alt="Demo" src="../Portfolio/public/image/portfolio-ss.png" />
 </div>
 
 ## Portfolio
