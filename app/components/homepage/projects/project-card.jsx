@@ -71,7 +71,7 @@ function ProjectCard({ project }) {
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline ml-1"
               >
-                {project.demo}
+                View Live Demo
               </Link>
               <span className="text-gray-400">,</span>
             </div>
