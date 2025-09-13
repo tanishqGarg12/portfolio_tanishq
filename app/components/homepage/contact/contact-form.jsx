@@ -37,10 +37,10 @@ function ContactForm() {
     try {
       setIsLoading(true);
       emailjs.send(
-        "service_cqkvl01",
-        "template_lfn5dfr",
+        "service_5s0eooj",
+        "template_1b1w9li",
         userInput,
-        "Q-anB_0Teb0AWe3TE"
+        "Uk1evEkkCIt5tNbla"
       ).then(
         (result) => {
           // console.log(result.text === 'OK')
@@ -54,10 +54,13 @@ function ContactForm() {
           }
         },
         (error) => {
-          toast.error("Something went wrong. Try again!", error);
+          console.log(error);
+          toast.error("nanaan", error);
         }
       );
     } catch (error) {
+      console.log(error);
+      toast.error("Something went wrong. Please try again later.");
       // toast.error(error?.response?.data?.message);
     } finally {
       setIsLoading(false);

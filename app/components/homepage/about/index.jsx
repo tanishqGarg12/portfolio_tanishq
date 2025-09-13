@@ -25,13 +25,13 @@ function AboutSection() {
             {/* {personalData.description.split('\n').map((line, index) => (
         <p key={index} style={{ marginBottom: '2em' }}>{line}</p>
                   ))} */}
-            <b>Hi, I’m Rajat Sharma — a FullStack Developer passionate about crafting intuitive, high-performance, and visually appealing web applications.</b> <br /><br />
+            <b>Hi, I’m Tanishq Garg — a Software Engineer passionate about crafting intuitive, high-performance, and visually appealing web applications.</b> <br /><br />
 
-            I specialize in building responsive and scalable user interfaces using <b>Vue, React, Next.js, Bootstrap and TailwindCSS.</b> With a strong eye for design and a love for clean code, I enjoy turning complex problems into simple, elegant solutions. <br /><br />
+            I build smart, scalable web applications from end to end. My toolkit includes React/Next.js for the frontend, and Java/FastAPI for high-traffic backends.<b> I am passionate about weaving AI capabilities into my work to create intuitive and powerful products.</b> 
 
-            Beyond coding, I’m always exploring new frontend trends, optimizing performance, and experimenting with modern web tools to deliver exceptional user experiences.<br /><br />
+            Beyond coding, I’m always exploring new Technology trends, optimizing performance, and experimenting with modern web tools to deliver exceptional user experiences with AI Agents.<br /><br />
 
-            🚀 <b>Key Skills:</b> JavaScript (ES6+), TypeScript, Vue, React, Next.js, TailwindCSS, REST APIs, Git, Responsive Design, Web Performance.<br /><br />
+            🚀 <b>Key Skills:</b> Java, Python, Langchain, Langgraph, Machine Learning, JavaScript (ES6+), TypeScript, React, Next.js, TailwindCSS, REST APIs, Node js, fast api, sql, Databases, Git, Responsive Design, Web Performance.<br /><br />
 
             🌟 <b>Goal:</b> To create digital experiences that are not only functional but also delightful for users.
           </div>
@@ -42,7 +42,7 @@ function AboutSection() {
             src={personalData.profile}
             width={350}
             height={300}
-            alt="Rajat Sharma"
+            alt="Tanishq Garg"
             className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
           /> */}
         </div>

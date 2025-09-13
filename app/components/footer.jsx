@@ -10,7 +10,7 @@ function Footer() {
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between">
           <p className="text-sm">
-            Designed and Developed by <Link target="_blank" href="https://www.linkedin.com/in/rajatsharma22" className="text-[#16f2b3]">Rajat Sharma</Link>
+            Designed and Developed by <Link target="_blank" href="https://www.linkedin.com/in/rajatsharma22" className="text-[#16f2b3]">Tanishq Garg</Link>
           </p>
          <p className="text-sm">
             &copy; {new Date().getFullYear()} All rights reserved.

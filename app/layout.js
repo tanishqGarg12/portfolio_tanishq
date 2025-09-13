@@ -10,9 +10,9 @@ import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Rajat Sharma",
+  title: "Tanishq Garg",
   description:
-    "This is the portfolio of Rajat Sharma.",
+    "This is the portfolio of Tanishq Garg.",
 };
 
 export default function RootLayout({ children }) {

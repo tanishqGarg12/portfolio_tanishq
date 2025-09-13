@@ -65,7 +65,9 @@ function Education() {
                         <div>
                           <p className="text-base sm:text-xl mb-2 font-medium uppercase">
                             {education.title}
+                            {/* <span className="text-sm sm:text-base text-gray-400"> {education.CGPA}</span> */}
                           </p>
+                          <p className="text-sm sm:text-base">Percentage: {education.Percentage}</p>
                           <p className="text-sm sm:text-base">{education.institution}</p>
                         </div>
                       </div>

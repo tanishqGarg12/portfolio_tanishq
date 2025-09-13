@@ -51,7 +51,7 @@ function Experience() {
                       />
                       <div className="flex justify-center">
                         <p className="text-xs sm:text-sm text-[#16f2b3]">
-                          {experience.duration}
+                          january 2023 - present
                         </p>
                       </div>
                       <div className="flex items-center gap-x-8 px-3 py-5">
@@ -60,10 +60,10 @@ function Experience() {
                         </div>
                         <div>
                           <p className="text-base sm:text-xl mb-2 font-medium uppercase">
-                            {experience.title}
+                            Software Engineer
                           </p>
                           <p className="text-sm sm:text-base">
-                            {experience.company}
+                            Nielsen
                           </p>
                         </div>
                       </div>

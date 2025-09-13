@@ -18,7 +18,7 @@ function Navbar() {
             href="/"
             className={`${greatVibes.className} text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-yellow-500 text-4xl tracking-wide transform rotate-[-7deg] hover:rotate-[-3deg] hover:scale-105 transition-transform duration-300`}
           >
-            Rajat Sharma
+            Tanishq Garg
           </Link>
         </div>
 
