@@ -7,6 +7,8 @@ import ScrollToTop from "./components/helper/scroll-to-top";
 import Navbar from "./components/navbar";
 import "./css/card.scss";
 import "./css/globals.scss";
+import { Analytics } from "@vercel/analytics/next"
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -19,6 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+        <Analytics />
         <ToastContainer />
         <main className="min-h-screen relative mx-auto px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem] text-white">
           <Navbar />
