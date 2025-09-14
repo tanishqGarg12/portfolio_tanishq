@@ -5,6 +5,7 @@ import { BiLogoLinkedin } from "react-icons/bi";
 import { CiLocationOn } from "react-icons/ci";
 import { FaFacebook, FaStackOverflow, FaWhatsapp } from 'react-icons/fa';
 import { FaInstagram, FaXTwitter } from "react-icons/fa6";
+import { SiLeetcode } from "react-icons/si";
 import { IoLogoGithub, IoLogoWhatsapp, IoMdCall } from "react-icons/io";
 import { MdAlternateEmail } from "react-icons/md";
 import ContactForm from './contact-form';
@@ -90,6 +91,12 @@ function ContactSection() {
             </Link>
             <Link target="_blank" href={personalData.instagram}>
               <FaInstagram
+                className="transition-all text-[#00FFFF] hover:scale-125 duration-300"
+                size={36}
+              />
+            </Link>
+            <Link target="_blank" href={personalData.leetocode}>
+              <SiLeetcode
                 className="transition-all text-[#00FFFF] hover:scale-125 duration-300"
                 size={36}
               />

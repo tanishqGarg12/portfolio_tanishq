@@ -15,5 +15,6 @@ export const personalData = {
   instagram: 'https://www.instagram.com/tan_ishq.05',
   whatsAppUrl: 'https://wa.me/+918307872808?text=Hello%20I%20want%20to%20connect%20with%20you',
   devUsername: "",
+  leetocode: "https://leetcode.com/u/Tanishq_18/",
   resume: "https://www.linkedin.com/in/tanishq-garg-3a908224a/"
 }
